@@ -37,7 +37,7 @@ export async function getStaticProps(){
           size: dataa.size,
           color: dataa.color,
           inStock: dataa.inStock,
-          price: dataa.price,
+          price: dataa.price || null,
           categories: dataa.categories,
           id: dataa._id.toString()
         }))

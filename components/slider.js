@@ -32,7 +32,7 @@ const Slider = () => {
                         <div className="flex-1 relative">
                             <div className="z-0 w-[40%] h-[50%] rounded-full mr-[40%] mt-56 bg-black/50 absolute"></div>
                             <div className=" relative" >
-                                <img className=" h-[80vh] "  src='' alt="First slide"/>
+                                {/* <img className=" h-[80vh] "  src={img2} alt="First slide"/> */}
                             </div>
                         </div>
                         </div>
